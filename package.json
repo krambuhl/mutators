@@ -1,0 +1,19 @@
+{
+  "name": "mutators",
+  "description": "Mixin for get/set object behavior",
+  "homepage": "https://github.com/krambuhl/mutators",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/mutators.git"
+  },
+  "devDependencies": {
+    "extend": "^2.0.1",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  }
+}

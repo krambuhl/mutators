@@ -2,7 +2,7 @@
   "name": "mutators",
   "description": "Mixin for get/set object behavior",
   "homepage": "https://github.com/krambuhl/mutators",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

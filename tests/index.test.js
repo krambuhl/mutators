@@ -2,7 +2,6 @@ var Mutators = require('../index.js');
 var extend = require('extend');
 var test = require('tape');
 
-
 test('object.get(prop)', function (t) {
   var obj = extend({ test: 'ballz' }, Mutators);
 

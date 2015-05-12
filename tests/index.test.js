@@ -9,6 +9,15 @@ test('object.get(prop)', function (t) {
   t.equal(obj.get('test'), 'ballz');
 });
 
+test('object.get(function)', function (t) {
+  var obj = extend({ test: function(name) { return [this, name]; } }, Mutators);
+  var res = obj.get('test', 'mayer');
+  t.plan(2);
+
+  t.equal(res[0].test !== undefined, true);
+  t.equal(res[1], 'mayer');
+});
+
 test('object.set(prop, val)', function (t) {
   var obj = extend({ }, Mutators);
   obj.set('test', 'ballz');
